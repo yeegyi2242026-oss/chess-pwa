@@ -1,0 +1,68 @@
+{
+  "name": "Offline Chess PWA",
+  "short_name": "Chess",
+  "description": "A mobile-friendly Progressive Web App for playing chess with offline support and bilingual interface",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a202c",
+  "theme_color": "#4299e1",
+  "categories": ["games"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a202c' width='192' height='192'/><text x='50%' y='50%' font-size='48' fill='%234299e1' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♟</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%231a202c' width='512' height='512'/><text x='50%' y='50%' font-size='256' fill='%234299e1' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♟</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a202c' width='192' height='192' rx='45'/><text x='50%' y='50%' font-size='96' fill='%234299e1' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♟</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%231a202c' width='512' height='512' rx='120'/><text x='50%' y='50%' font-size='256' fill='%234299e1' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♟</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%234299e1' width='192' height='192' rx='45'/><text x='50%' y='50%' font-size='96' fill='%231a202c' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♟</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%234299e1' width='512' height='512' rx='120'/><text x='50%' y='50%' font-size='256' fill='%231a202c' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>♟</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Game",
+      "short_name": "New Game",
+      "description": "Start a new chess game",
+      "url": "/?action=newgame",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%234299e1' width='192' height='192' rx='45'/><text x='50%' y='50%' font-size='96' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>+</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
